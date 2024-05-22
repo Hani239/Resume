@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:after, *:before {
+    box-sizing: inherit;
+  }
+  .dashed {
+    border-bottom: dashed 1px #000000;
+    max-width: 960px;
+  }
+  section{
+    justify-content: space-between;
+    border-bottom: dashed 1px #000000;
+  }
+  header{
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 960px;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1)
+  }
+  .mainLeft{
+    flex-basis: 35%;
+    margin-left: 50px;
+  }
+  .contacts-item i{
+    margin-right: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .contacts-text{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .mainRight{
+    margin-left: 80px;
+    margin-right: 50px;
+    flex-basis: 65%
+  }
+  .edu-detail{
+    display: flex;
+    justify-content: space-between;
+  }
+  .topic{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .sub-topic{
+    font-size: 14px;
+  }
+section{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .skills-list__item {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .skill{
+    margin-bottom: 5px;
+  }
+  .level {
+    width: 70%;
+    height: 8px;
+    border: 1px solid #39383a;
+    position: relative;
+  }
+  .level:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #898989;
+  }
+  .level-100:before {
+    width: 100%;
+  }
+  .level-90:before {
+    width: 90%;
+  }
+  .level-85:before {
+    width: 85%;
+  }
+  .level-80:before {
+    width: 80%;
+  }
+  .level-75:before {
+    width: 75%;
+  }
+  .level-70:before {
+    width: 70%;
+  }
+  .level-60:before {
+    width: 60%;
+  }
+  .level-65:before {
+    width: 65%;
+  }
+
+  .profile-list__item {
+    margin-bottom: 16px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
